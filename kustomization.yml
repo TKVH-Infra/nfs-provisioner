@@ -1,0 +1,10 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: nfs
+resources:
+#  - https://raw.githubusercontent.com/kubernetes-sigs/nfs-subdir-external-provisioner/v4.0.2/deploy/deployment.yaml
+#  - https://raw.githubusercontent.com/kubernetes-sigs/nfs-subdir-external-provisioner/v4.0.2/deploy/rbac.yaml
+#  - https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner/blob/v4.0.2/deploy/class.yaml
+  - deploy.yml
+  - rbac.yml
+  - class.yml
