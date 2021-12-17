@@ -8,3 +8,4 @@ resources:
   - deploy.yml
   - rbac.yml
   - class.yml
+  - class-default.yml
